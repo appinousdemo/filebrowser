@@ -1926,7 +1926,7 @@ Upload finished.
     <%}%>
 	<hr>
 	<center>
-		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://www.vonloesch.de">www.vonloesch.de</a></small>
+		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.blogspot.in">appinous.blogspot.in</a></small>
 	</center>
 </body>
 </html><%
