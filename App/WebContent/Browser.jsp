@@ -1926,7 +1926,11 @@ Upload finished.
     <%}%>
 	<hr> 
 	<center>
+<<<<<<< HEAD
 		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.blogspot.in/2018/02/codepad.html">appinous.blogspot.in</a></small>
+=======
+		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.blogspot.in">appinous.blogspot.in</a></small>
+>>>>>>> branch 'master' of https://github.com/appinousdemo/filebrowser.git
 	</center>
 </body>
 </html><%
