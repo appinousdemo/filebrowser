@@ -1924,7 +1924,7 @@ Upload finished.
     }%>
     </div>
     <%}%>
-	<hr>
+	<hr> 
 	<center>
 		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.blogspot.in/2018/02/codepad.html">appinous.blogspot.in</a></small>
 	</center>
