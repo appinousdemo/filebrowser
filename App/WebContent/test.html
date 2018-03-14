@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <title>Test Page</title>
+      <style>
+html {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: #272c2f;
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0;
+}
+
+header > .logo, nav li {
+  padding: 0 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  line-height: 60px;
+  transition: 0.2s;
+}
+
+nav li:last-child {
+  margin: 0 30px 0 0;
+}
+
+header > .logo {
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+header > .logo:hover, nav li:hover {
+  background: #82c8a0;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<script>
+function check(){
+alert("The paragraph was clicked.");
+$('#tar').load('Browser.jsp');  // here 'test.html' is a page and 'target' id a id of 'test.html'
+}
+function google(){
+	alert("The paragraph was clicked.");
+	$('#tar').load('');  // here 'test.html' is a page and 'target' id a id of 'test.html'
+	}
+  </script>
+<body>
+<header>
+  <a class="logo" href="www.42debut.com">Company Name</a>
+  <nav>
+    <ul>
+      <li><a onclick="check()">Overview</a></li>
+      <li><a onclick="google()">Customers</a></li>
+      <li><a href="#">Items</a></li>
+      <li><a href="#">Social</a></li>
+      <li><a href="#">Data</a></li>
+    </ul>
+  </nav>
+</header>
+<div id="tar">
+</div>
+</body>
+</html>

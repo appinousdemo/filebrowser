@@ -42,8 +42,8 @@
     //if false, the user is allowed to browse all directories besides RESTRICT_PATH
     private static final boolean RESTRICT_WHITELIST = false;
     //Paths, sperated by semicolon
-    //private static final String RESTRICT_PATH = "C:\\CODE;E:\\"; //Win32: Case important!!
-	private static final String RESTRICT_PATH = "/etc;/var";
+    private static final String RESTRICT_PATH = "C:\\;E:\\"; //Win32: Case important!!
+	//private static final String RESTRICT_PATH = "/etc;/var;";
 
     //The refresh time in seconds of the upload monitor window
 	private static final int UPLOAD_MONITOR_REFRESH = 2;
@@ -1926,7 +1926,7 @@ Upload finished.
     <%}%>
 	<hr> 
 	<center>
-		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.blogspot.in/2018/02/codepad.html">appinous.blogspot.in</a></small>
+		<small>jsp File Browser version <%= VERSION_NR%> by <a href="http://appinous.com">appinous.com</a></small>
 	</center>
 </body>
 </html><%
